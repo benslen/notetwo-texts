@@ -1,0 +1,15 @@
+{
+  "_comment": "The Qur’an's 114 surahs, in order, for Tanzil's sura|aya|text files.",
+  "surahs": ["Al-Fatihah", "Al-Baqarah", "Al ʿImran", "An-Nisa", "Al-Maʾidah", "Al-Anʿam", "Al-Aʿraf", "Al-Anfal", "At-Tawbah", "Yunus",
+    "Hud", "Yusuf", "Ar-Raʿd", "Ibrahim", "Al-Hijr", "An-Nahl", "Al-Isra", "Al-Kahf", "Maryam", "Ta-Ha",
+    "Al-Anbiya", "Al-Hajj", "Al-Muʾminun", "An-Nur", "Al-Furqan", "Ash-Shuʿara", "An-Naml", "Al-Qasas", "Al-ʿAnkabut", "Ar-Rum",
+    "Luqman", "As-Sajdah", "Al-Ahzab", "Sabaʾ", "Fatir", "Ya-Sin", "As-Saffat", "Sad", "Az-Zumar", "Ghafir",
+    "Fussilat", "Ash-Shura", "Az-Zukhruf", "Ad-Dukhan", "Al-Jathiyah", "Al-Ahqaf", "Muhammad", "Al-Fath", "Al-Hujurat", "Qaf",
+    "Adh-Dhariyat", "At-Tur", "An-Najm", "Al-Qamar", "Ar-Rahman", "Al-Waqiʿah", "Al-Hadid", "Al-Mujadilah", "Al-Hashr", "Al-Mumtahanah",
+    "As-Saff", "Al-Jumuʿah", "Al-Munafiqun", "At-Taghabun", "At-Talaq", "At-Tahrim", "Al-Mulk", "Al-Qalam", "Al-Haqqah", "Al-Maʿarij",
+    "Nuh", "Al-Jinn", "Al-Muzzammil", "Al-Muddaththir", "Al-Qiyamah", "Al-Insan", "Al-Mursalat", "An-Nabaʾ", "An-Naziʿat", "ʿAbasa",
+    "At-Takwir", "Al-Infitar", "Al-Mutaffifin", "Al-Inshiqaq", "Al-Buruj", "At-Tariq", "Al-Aʿla", "Al-Ghashiyah", "Al-Fajr", "Al-Balad",
+    "Ash-Shams", "Al-Layl", "Ad-Duha", "Ash-Sharh", "At-Tin", "Al-ʿAlaq", "Al-Qadr", "Al-Bayyinah", "Az-Zalzalah", "Al-ʿAdiyat",
+    "Al-Qariʿah", "At-Takathur", "Al-ʿAsr", "Al-Humazah", "Al-Fil", "Quraysh", "Al-Maʿun", "Al-Kawthar", "Al-Kafirun", "An-Nasr",
+    "Al-Masad", "Al-Ikhlas", "Al-Falaq", "An-Nas"]
+}

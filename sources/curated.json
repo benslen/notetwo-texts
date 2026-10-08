@@ -1,0 +1,906 @@
+{
+  "_comment": "Hand-picked editions that don't come from eBible.org. build_catalog.py adds every freely shareable eBible.org translation to Christianity and Judaism. Formats: gutenberg (Project Gutenberg plain text; its header and licence are trimmed for reading), plain (plain text; scanned: true when it was read from page images), tanzil (sura|aya|text lines), usfm-verses (BOOK C:V text lines, from a zip). headings.pattern is an ICU regular expression run over the whole text in multi-line mode; each match starts a section, titled by headings.title ($1 is the first group) or by the matched line.",
+  "religions": [
+    {
+      "id": "ancient-egyptian",
+      "name": "Ancient Egyptian religion",
+      "editions": [
+        {
+          "id": "gutenberg:69566",
+          "work": "Book of the Dead",
+          "title": "The Egyptian Book of the Dead",
+          "translator": "P. Le Page Renouf and Édouard Naville",
+          "year": "1904",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAPTER [IVXLC]+\\.[ \\t]*$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bahai",
+      "name": "Bahá’í Faith",
+      "editions": [
+        {
+          "id": "gutenberg:16523",
+          "work": "Kitáb-i-Aqdas",
+          "title": "The Kitáb-i-Aqdas (The Most Holy Book)",
+          "translator": "Bahá’u’lláh; Universal House of Justice translation",
+          "year": "1992",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:16983",
+          "work": "Kitáb-i-Íqán",
+          "title": "The Kitáb-i-Íqán (The Book of Certitude)",
+          "translator": "Bahá’u’lláh; Shoghi Effendi",
+          "year": "1931",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:16941",
+          "work": "The Hidden Words",
+          "title": "The Hidden Words",
+          "translator": "Bahá’u’lláh; Shoghi Effendi",
+          "year": "1932",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:16940",
+          "work": "Gleanings",
+          "title": "Gleanings from the Writings of Bahá’u’lláh",
+          "translator": "Shoghi Effendi",
+          "year": "1935",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:16984",
+          "work": "Prayers and Meditations",
+          "title": "Prayers and Meditations",
+          "translator": "Bahá’u’lláh; Shoghi Effendi",
+          "year": "1938",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:17310",
+          "work": "Tablets",
+          "title": "Tablets of Bahá’u’lláh Revealed after the Kitáb-i-Aqdas",
+          "translator": "Bahá’u’lláh",
+          "year": "1978",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:19287",
+          "work": "Selections",
+          "title": "Selections from the Writings of ‘Abdu’l-Bahá",
+          "translator": "‘Abdu’l-Bahá",
+          "year": "1978",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        },
+        {
+          "id": "gutenberg:19289",
+          "work": "Some Answered Questions",
+          "title": "Some Answered Questions",
+          "translator": "‘Abdu’l-Bahá; Laura Clifford Barney",
+          "year": "1908",
+          "language": "en",
+          "format": "gutenberg",
+          "license": "Free to read and share under the Bahá’í Reference Library terms of use"
+        }
+      ]
+    },
+    {
+      "id": "buddhism",
+      "name": "Buddhism",
+      "editions": [
+        {
+          "id": "gutenberg:2017",
+          "work": "Dhammapada",
+          "title": "Dhammapada",
+          "translator": "F. Max Müller",
+          "year": "1881",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^Chapter [IVXLC]+\\. .*$"
+          }
+        },
+        {
+          "id": "gutenberg:35185",
+          "work": "Dhammapada",
+          "title": "The Buddha’s Path of Virtue",
+          "translator": "F. L. Woodward",
+          "year": "1921",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*[IVXLC]+\\. [A-Z][a-z][^\\n]{0,40}$"
+          }
+        },
+        {
+          "id": "gutenberg:64623",
+          "work": "Diamond Sutra",
+          "title": "The Diamond Sutra",
+          "translator": "William Gemmell",
+          "year": "1912",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:64622",
+          "work": "Diamond Sutra",
+          "title": "Vajra-chhediká, or Diamond Sútra",
+          "translator": "Samuel Beal",
+          "year": "1864",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:24098",
+          "work": "Diamond Sutra",
+          "title": "金剛般若波羅蜜經",
+          "translator": "Kumārajīva",
+          "language": "zh",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*\\S{1,8}第[一二三四五六七八九十]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:79267",
+          "work": "Lotus Sutra",
+          "title": "The Lotus of the Wonderful Law",
+          "translator": "William Edward Soothill",
+          "year": "1930",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*([IVXLC]+)[ \\t]*$",
+            "title": "Chapter $1"
+          }
+        },
+        {
+          "id": "gutenberg:23585",
+          "work": "Sutra of Forty-two Sections",
+          "title": "佛說四十二章經",
+          "language": "zh",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:25498",
+          "work": "Infinite Life Sutra",
+          "title": "佛說無量壽經",
+          "translator": "Saṅghavarman",
+          "language": "zh",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:23844",
+          "work": "Platform Sutra",
+          "title": "六祖壇經",
+          "translator": "Huineng",
+          "language": "zh",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*\\S{1,8}第[一二三四五六七八九十]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:51880",
+          "work": "Jataka Tales",
+          "title": "Buddhist Birth Stories (Jataka Tales), Volume 1",
+          "translator": "T. W. Rhys Davids",
+          "year": "1880",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*No\\. \\d+\\..*$"
+          }
+        },
+        {
+          "id": "gutenberg:35895",
+          "work": "Gospel of Buddha",
+          "title": "The Gospel of Buddha",
+          "translator": "Paul Carus, compiler",
+          "year": "1894",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*([IVXLC]+)\\.[ \\t]*$",
+            "title": "Chapter $1"
+          }
+        },
+        {
+          "id": "gutenberg:7015",
+          "work": "Buddhist Psalms",
+          "title": "Buddhist Psalms of Shinran Shonin",
+          "translator": "S. Yamabe and L. Adams Beck",
+          "year": "1921",
+          "language": "en",
+          "format": "gutenberg"
+        }
+      ]
+    },
+    {
+      "id": "christianity",
+      "name": "Christianity",
+      "editions": [
+        {
+          "id": "gutenberg:77935",
+          "work": "Book of Enoch",
+          "title": "The Book of Enoch",
+          "translator": "R. H. Charles",
+          "year": "1917",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:77815",
+          "work": "Book of Enoch",
+          "title": "The Book of Enoch the Prophet",
+          "translator": "Richard Laurence",
+          "year": "1883",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAP\\. ([IVXLC]+)\\..*$",
+            "title": "Chapter $1"
+          }
+        },
+        {
+          "id": "gutenberg:4013",
+          "work": "Book of Enoch",
+          "title": "Das Buch Henoch",
+          "translator": "Andreas Gottlieb Hoffmann",
+          "year": "1833",
+          "language": "de",
+          "format": "gutenberg"
+        }
+      ]
+    },
+    {
+      "id": "confucianism",
+      "name": "Confucianism",
+      "editions": [
+        {
+          "id": "gutenberg:3330",
+          "work": "Analects",
+          "title": "The Analects of Confucius",
+          "translator": "James Legge",
+          "year": "1861",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^BOOK [IVXLC]+\\..*$"
+          }
+        },
+        {
+          "id": "gutenberg:46389",
+          "work": "Analects",
+          "title": "The Sayings of Confucius",
+          "translator": "Lionel Giles",
+          "year": "1907",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:24055",
+          "work": "Analects",
+          "title": "The Sayings of Confucius",
+          "translator": "Leonard A. Lyall",
+          "year": "1909",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*BOOK [IVXLC]+.*$"
+          }
+        },
+        {
+          "id": "gutenberg:23839",
+          "work": "Analects",
+          "title": "論語",
+          "language": "zh",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*\\S{1,6}第[一二三四五六七八九十]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:24178",
+          "work": "Mencius",
+          "title": "孟子",
+          "translator": "Mencius",
+          "language": "zh",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*卷之.+$"
+          }
+        },
+        {
+          "id": "gutenberg:9394",
+          "work": "Book of Poetry",
+          "title": "The Shih King (Book of Poetry), selections",
+          "translator": "James Legge",
+          "year": "1879",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:44958",
+          "work": "Four Books",
+          "title": "Les quatre livres de philosophie morale et politique de la Chine",
+          "translator": "Guillaume Pauthier",
+          "year": "1841",
+          "language": "fr",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAPITRE [IVXLC]+.*$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hinduism",
+      "name": "Hinduism",
+      "editions": [
+        {
+          "id": "gutenberg:2388",
+          "work": "Bhagavad Gita",
+          "title": "The Song Celestial (Bhagavad Gita)",
+          "translator": "Edwin Arnold",
+          "year": "1885",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAPTER [IVXLC]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:33186",
+          "work": "Bhagavad Gita",
+          "title": "Bhagavadgita — Des Erhabenen Sang",
+          "translator": "Leopold von Schroeder",
+          "year": "1912",
+          "language": "de",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:48854",
+          "work": "Bhagavad Gita",
+          "title": "Bhagavad-Gita: Herrens sång",
+          "translator": "Hjalmar Johannes Runeberg",
+          "year": "1902",
+          "language": "sv",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*([IVXLC]+)\\.[ \\t]*$",
+            "title": "Kapitel $1"
+          }
+        },
+        {
+          "id": "gutenberg:3283",
+          "work": "Upanishads",
+          "title": "The Upanishads",
+          "translator": "Swami Paramananda",
+          "year": "1919",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*[A-Z][A-Za-z]+-Upanishad[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:2526",
+          "work": "Yoga Sutras",
+          "title": "The Yoga Sutras of Patanjali",
+          "translator": "Charles Johnston",
+          "year": "1912",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*BOOK [IVXLC]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:15474",
+          "work": "Mahabharata",
+          "title": "The Mahabharata, Volume 1: Books 1–3",
+          "translator": "Kisari Mohan Ganguli",
+          "year": "1883",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*SECTION [IVXLC]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:15475",
+          "work": "Mahabharata",
+          "title": "The Mahabharata, Volume 2: Books 4–7",
+          "translator": "Kisari Mohan Ganguli",
+          "year": "1883",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*SECTION [IVXLC]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:15476",
+          "work": "Mahabharata",
+          "title": "The Mahabharata, Volume 3: Books 8–12",
+          "translator": "Kisari Mohan Ganguli",
+          "year": "1883",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*SECTION [IVXLC]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:15477",
+          "work": "Mahabharata",
+          "title": "The Mahabharata, Volume 4: Books 13–18",
+          "translator": "Kisari Mohan Ganguli",
+          "year": "1883",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*SECTION [IVXLC]+[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:66208",
+          "work": "Vishnu Purana",
+          "title": "The Vishnu Purana",
+          "translator": "Manmatha Nath Dutt",
+          "year": "1896",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*SECTION [IVXLC]+\\.[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:7169",
+          "work": "Markandeya Purana",
+          "title": "Mârkandeya Purâna, Books VII and VIII",
+          "translator": "B. Hale Wortham",
+          "year": "1885",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:16295",
+          "work": "Vedanta Sutras",
+          "title": "The Vedânta-Sûtras with Śaṅkara’s Commentary, Part 1",
+          "translator": "George Thibaut",
+          "year": "1890",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "archive:in.ernet.dli.2015.237767",
+          "work": "Rig Veda",
+          "title": "The Hymns of the Rigveda, Volume 1",
+          "translator": "Ralph T. H. Griffith",
+          "year": "1896",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/in.ernet.dli.2015.237767/2015.237767.The-Hymns_djvu.txt"
+        },
+        {
+          "id": "archive:in.ernet.dli.2015.47262",
+          "work": "Rig Veda",
+          "title": "The Hymns of the Rigveda, Volume 2",
+          "translator": "Ralph T. H. Griffith",
+          "year": "1897",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/in.ernet.dli.2015.47262/2015.47262.Hymns-Of-The-Rigveda--Vol2_djvu.txt"
+        }
+      ]
+    },
+    {
+      "id": "islam",
+      "name": "Islam",
+      "editions": [
+        {
+          "id": "tanzil:quran-simple",
+          "work": "Qur’an",
+          "title": "القرآن الكريم",
+          "translator": "Arabic text, Tanzil Project",
+          "language": "ar",
+          "direction": "rtl",
+          "format": "tanzil",
+          "url": "https://tanzil.net/pub/download/index.php?quranType=simple&outType=txt-2&agree=true",
+          "source": "https://tanzil.net/download/",
+          "publisher": "Tanzil Project",
+          "license": "Creative Commons Attribution 3.0; source: Tanzil Project (tanzil.net)"
+        },
+        {
+          "id": "tanzil:en.pickthall",
+          "work": "Qur’an",
+          "title": "The Meaning of the Glorious Koran",
+          "translator": "Marmaduke Pickthall",
+          "year": "1930",
+          "language": "en",
+          "format": "tanzil",
+          "url": "https://tanzil.net/trans/?transID=en.pickthall&type=txt-2",
+          "source": "https://tanzil.net/trans/",
+          "publisher": "Tanzil Project",
+          "license": "Public domain in the United States"
+        },
+        {
+          "id": "gutenberg:16955",
+          "work": "Qur’an",
+          "title": "Three Translations of the Koran Side by Side",
+          "translator": "Abdullah Yusuf Ali, Marmaduke Pickthall and M. H. Shakir",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*Chapter (\\d+):.*$",
+            "title": "Surah $1"
+          }
+        },
+        {
+          "id": "gutenberg:2800",
+          "work": "Qur’an",
+          "title": "The Koran",
+          "translator": "J. M. Rodwell (chronological order)",
+          "year": "1861",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^SURA[^\\n]*$"
+          }
+        },
+        {
+          "id": "gutenberg:7440",
+          "work": "Qur’an",
+          "title": "The Koran",
+          "translator": "George Sale",
+          "year": "1734",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAPTER ([IVXLC]+)\\.[ \\t]*$",
+            "title": "Chapter $1"
+          }
+        },
+        {
+          "id": "gutenberg:19786",
+          "work": "Qur’an",
+          "title": "De Koran",
+          "translator": "S. Keyzer, after Albin de Kazimirski",
+          "year": "1860",
+          "language": "nl",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*[IVXLC]+\\. [A-Z][^\\n]{0,80}verzen.*$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jainism",
+      "name": "Jainism",
+      "editions": [
+        {
+          "id": "archive:mlbd.jainasutraspt1tr00vol-22.unse_m8x0",
+          "work": "Jaina Sutras",
+          "title": "Gaina Sûtras, Part 1 (Âkârâṅga, Kalpa Sûtra)",
+          "translator": "Hermann Jacobi",
+          "year": "1884",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/mlbd.jainasutraspt1tr00vol-22.unse_m8x0/mlbd.jainasutraspt1tr00vol-22.unse_m8x0_djvu.txt"
+        },
+        {
+          "id": "archive:in.ernet.dli.2015.282337",
+          "work": "Jaina Sutras",
+          "title": "Gaina Sûtras, Part 2 (Uttarâdhyayana, Sûtrakritâṅga)",
+          "translator": "Hermann Jacobi",
+          "year": "1895",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/in.ernet.dli.2015.282337/2015.282337.The-Sacred_djvu.txt"
+        }
+      ]
+    },
+    {
+      "id": "judaism",
+      "name": "Judaism",
+      "editions": [
+        {
+          "id": "gutenberg:14368",
+          "work": "Talmud and Midrash",
+          "title": "Hebraic Literature: Translations from the Talmud, Midrashim and Kabbala",
+          "translator": "Maurice H. Harris, editor",
+          "year": "1901",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[A-Z][A-Z \\-]{3,40}$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "latter-day-saints",
+      "name": "Latter-day Saint movement",
+      "editions": [
+        {
+          "id": "gutenberg:17",
+          "work": "Book of Mormon",
+          "title": "The Book of Mormon",
+          "year": "1830",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[^\\n]{1,65} Chapter \\d+[ \\t]*$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maya",
+      "name": "Maya religion",
+      "editions": [
+        {
+          "id": "gutenberg:56550",
+          "work": "Popol Vuh",
+          "title": "The Popol Vuh",
+          "translator": "Lewis Spence",
+          "year": "1908",
+          "language": "en",
+          "format": "gutenberg"
+        }
+      ]
+    },
+    {
+      "id": "norse",
+      "name": "Norse religion",
+      "editions": [
+        {
+          "id": "gutenberg:73533",
+          "work": "Poetic Edda",
+          "title": "The Poetic Edda",
+          "translator": "Henry Adams Bellows",
+          "year": "1923",
+          "language": "en",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:18947",
+          "work": "Prose Edda",
+          "title": "The Younger Edda (Prose Edda)",
+          "translator": "Rasmus B. Anderson",
+          "year": "1880",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAPTER [IVXLC]+\\.[ \\t]*$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shinto",
+      "name": "Shinto",
+      "editions": [
+        {
+          "id": "archive:nihongi1asto",
+          "work": "Nihongi",
+          "title": "Nihongi: Chronicles of Japan, Volume 1",
+          "translator": "W. G. Aston",
+          "year": "1896",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/nihongi1asto/nihongi1asto_djvu.txt"
+        },
+        {
+          "id": "archive:nihongi2asto",
+          "work": "Nihongi",
+          "title": "Nihongi: Chronicles of Japan, Volume 2",
+          "translator": "W. G. Aston",
+          "year": "1896",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/nihongi2asto/nihongi2asto_djvu.txt"
+        }
+      ]
+    },
+    {
+      "id": "sikhism",
+      "name": "Sikhism",
+      "editions": [
+        {
+          "id": "archive:thesikhreligion01macauoft",
+          "work": "Guru Granth Sahib",
+          "title": "The Sikh Religion, Volume 1 (Guru Nanak)",
+          "translator": "Max Arthur Macauliffe",
+          "year": "1909",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/thesikhreligion01macauoft/thesikhreligion01macauoft_djvu.txt"
+        },
+        {
+          "id": "archive:thesikhreligioni02macauoft",
+          "work": "Guru Granth Sahib",
+          "title": "The Sikh Religion, Volume 2 (Gurus Angad to Ram Das)",
+          "translator": "Max Arthur Macauliffe",
+          "year": "1909",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/thesikhreligioni02macauoft/thesikhreligioni02macauoft_djvu.txt"
+        },
+        {
+          "id": "archive:thesikhreligio203macauoft",
+          "work": "Guru Granth Sahib",
+          "title": "The Sikh Religion, Volume 3 (Guru Arjan)",
+          "translator": "Max Arthur Macauliffe",
+          "year": "1909",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/thesikhreligio203macauoft/thesikhreligio203macauoft_djvu.txt"
+        },
+        {
+          "id": "archive:thesikhreligio400macauoft",
+          "work": "Guru Granth Sahib",
+          "title": "The Sikh Religion, Volume 4 (Gurus Har Gobind to Tegh Bahadur)",
+          "translator": "Max Arthur Macauliffe",
+          "year": "1909",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/thesikhreligio400macauoft/thesikhreligio400macauoft_djvu.txt"
+        },
+        {
+          "id": "archive:thesikhreligioni05macauoft",
+          "work": "Guru Granth Sahib",
+          "title": "The Sikh Religion, Volume 5 (Guru Gobind Singh)",
+          "translator": "Max Arthur Macauliffe",
+          "year": "1909",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/thesikhreligioni05macauoft/thesikhreligioni05macauoft_djvu.txt"
+        },
+        {
+          "id": "archive:thesikhreligioni06macauoft",
+          "work": "Guru Granth Sahib",
+          "title": "The Sikh Religion, Volume 6 (The Bhagats)",
+          "translator": "Max Arthur Macauliffe",
+          "year": "1909",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/thesikhreligioni06macauoft/thesikhreligioni06macauoft_djvu.txt"
+        }
+      ]
+    },
+    {
+      "id": "taoism",
+      "name": "Taoism",
+      "editions": [
+        {
+          "id": "gutenberg:216",
+          "work": "Tao Te Ching",
+          "title": "The Tao Teh King",
+          "translator": "James Legge",
+          "year": "1891",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "(?<=\\n\\n\\n)(?:Ch\\. )?(\\d+)\\.",
+            "title": "Chapter $1"
+          }
+        },
+        {
+          "id": "gutenberg:7337",
+          "work": "Tao Te Ching",
+          "title": "道德經",
+          "translator": "Laozi",
+          "language": "zh",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*第[一二三四五六七八九十百]+章[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:59709",
+          "work": "Zhuangzi",
+          "title": "Chuang Tzu: Mystic, Moralist, and Social Reformer",
+          "translator": "Herbert A. Giles",
+          "year": "1889",
+          "language": "en",
+          "format": "gutenberg",
+          "headings": {
+            "pattern": "^[ \\t]*CHAPTER [IVXLC]+\\.[ \\t]*$"
+          }
+        },
+        {
+          "id": "gutenberg:7341",
+          "work": "Liezi",
+          "title": "列子",
+          "translator": "Liezi",
+          "language": "zh",
+          "format": "gutenberg"
+        },
+        {
+          "id": "gutenberg:25696",
+          "work": "Baopuzi",
+          "title": "抱朴子",
+          "translator": "Ge Hong",
+          "language": "zh",
+          "format": "gutenberg"
+        }
+      ]
+    },
+    {
+      "id": "zoroastrianism",
+      "name": "Zoroastrianism",
+      "editions": [
+        {
+          "id": "archive:MullerSacredBooksOfTheEastVolIV1880TheZendAvesta",
+          "work": "Avesta",
+          "title": "The Zend-Avesta, Part 1 (Vendîdâd)",
+          "translator": "James Darmesteter",
+          "year": "1880",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/MullerSacredBooksOfTheEastVolIV1880TheZendAvesta/Muller%20-%20Sacred%20Books%20of%20the%20East%20Vol%20IV%201880%20-%20The%20Zend%20Avesta_djvu.txt"
+        },
+        {
+          "id": "archive:mlbd.zendavestasacred0000vol-23.unse_e5w9",
+          "work": "Avesta",
+          "title": "The Zend-Avesta, Part 2 (Sîrôzahs, Yasts, Nyâyis)",
+          "translator": "James Darmesteter",
+          "year": "1883",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/mlbd.zendavestasacred0000vol-23.unse_e5w9/mlbd.zendavestasacred0000vol-23.unse_e5w9_djvu.txt"
+        },
+        {
+          "id": "archive:mlbd.zendavestasacredvo0000vol-31.unse",
+          "work": "Avesta",
+          "title": "The Zend-Avesta, Part 3 (Yasna, Visparad, Âfrînagân, Gâhs)",
+          "translator": "L. H. Mills",
+          "year": "1887",
+          "language": "en",
+          "format": "plain",
+          "scanned": true,
+          "url": "https://archive.org/download/mlbd.zendavestasacredvo0000vol-31.unse/mlbd.zendavestasacredvo0000vol-31.unse_djvu.txt"
+        }
+      ]
+    }
+  ]
+}
